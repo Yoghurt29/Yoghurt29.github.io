@@ -1,6 +1,9 @@
 ## Welcome to GitHub Pages
-
+<script type="text/javascript">
+	alert("hello");
+</script>
 <h1>你好</h1>
+<java>
 <button>按鈕</button>
 You can use the [editor on GitHub](https://github.com/Yoghurt29/Yoghurt29.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
