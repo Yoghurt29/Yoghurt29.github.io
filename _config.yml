@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email:
-description: A simple and awesome blog theme powered by jekyll.
+title: 楚荣龙
+email: 2008xiaochu@sina.com 
+description: Trulon`s page.
 url: # the base hostname & protocol for your site
 
 
@@ -33,11 +33,11 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
+  name: Trulon
   avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  job: "JAVA 工程师"
+  bio: "一年全栈开发经验，独立完成小型项目"
+  email: 2008xiaochu@sina.com
   disqus-shortname:
   twitter: #username
   facebook: #username
