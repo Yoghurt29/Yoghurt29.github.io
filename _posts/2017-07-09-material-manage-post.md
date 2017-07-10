@@ -46,16 +46,17 @@ image:
 	<input type="button" class="btn slide-three" value="数据维护">
 	<input type="button" class="btn slide-fourth" value="签单界面">
 </div>
-<h2> 第一个独立完成的WEB项目</h2>
+<div id="projectDetail">
+	<h2> 第一个独立完成的WEB项目<h2/>
 	
 	<p>该系统用于盘点生产料件。<p/>
 	
-	<h3>用到的框架</h3>
+	<h3>用到的框架<h3/>
 	<ul>
 		<li>前端 BootStrap jQuery Echart<li/>
 		<li>后台 Spring SpringMVC Hibernate<li/>
 	<ul/>	
-	<h3>主要功能模块特点</h3>
+	<h3>主要功能模块特点<h3/>
 	<ul>
 		<li>
 			<h5>
@@ -97,7 +98,8 @@ image:
 				实现签核流程定制化功能，用户可配置签核人员节点，定义签核流程。
 			<p/>
 		<li/>
-	<ul/>	
+	<ul/>
+</div>	
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
