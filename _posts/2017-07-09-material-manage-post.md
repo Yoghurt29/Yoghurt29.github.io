@@ -9,38 +9,6 @@ image:
   credit: thomas shellberg
   creditlink: https://unsplash.com/photos/Ki0dpxd3LGc
 ---
-<!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
-	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<script>
-	$(function(){
-		// 初始化轮播
-			//$("#myCarousel").carousel('cycle');
-		// 停止轮播
-			//$("#myCarousel").carousel('pause');
-		// 循环轮播到上一个项目
-			//$("#myCarousel").carousel('prev');
-		// 循环轮播到下一个项目
-			//$("#myCarousel").carousel('next');
-		// 循环轮播到某个特定的帧 
-		$(".slide-one").click(function(){
-			$("#myCarousel").carousel(0);
-		});
-		$(".slide-two").click(function(){
-			$("#myCarousel").carousel(1);
-		});
-		$(".slide-three").click(function(){
-			$("#myCarousel").carousel(2);
-		});
-		$(".slide-fourth").click(function(){
-			$("#myCarousel").carousel(3);
-		});
-	});
-</script>
 <div id="myCarousel" class="carousel slide">
 	<!-- 轮播（Carousel）指标 -->
 	<ol class="carousel-indicators">
@@ -80,21 +48,81 @@ image:
 </div>
 <h2> 第一个独立完成的WEB项目</h2>
 	
-	该系统用于盘点生产料件。
+	<p>该系统用于盘点生产料件。<p/>
 	
 	<h3>用到的框架</h3>
-		前端 BootStrap jQuery Echart
-		后台 Spring SpringMVC Hibernate
-		
+	<ul>
+		<li>前端 BootStrap jQuery Echart<li/>
+		<li>后台 Spring SpringMVC Hibernate<li/>
+	<ul/>	
 	<h3>主要功能模块特点</h3>
-	*退发料件录入
-		使用web socket实现服务器主动推送退发料记录，使得多个用户同时使用时可同步展示库存数据。
-	*盘点数据导入导出
-		编写Excel读取工具，努力做到使用简单灵活，复用性高。从Excel文件数据读取任意类对象集合，如List<T> List<Map>
-	*可视化图表报表
-		使用Echart报表生成库，可视化展示后台数据。
-	*邮件报告
-		实现将前台Echart生成的图表传到后台，放到邮件正文中。
-	*借料签流程单
-		实现签核流程定制化功能，用户可配置签核人员节点，定义签核流程。
-<html/>
+	<ul>
+		<li>
+			<h5>
+				退发料件录入
+			<h5/>
+			<p>
+				使用web socket实现服务器主动推送退发料记录，使得多个用户同时使用时可同步展示库存数据。
+			<p/>
+		<li/>
+		<li>
+			<h5>
+				盘点数据导入导出
+			<h5/>
+			<p>
+				编写Excel读取工具，努力做到使用简单灵活，复用性高。从Excel文件数据读取任意类对象集合，如List<T> List<Map>
+			<p/>
+		<li/>
+		<li>
+			<h5>
+				可视化图表报表
+			<h5/>
+			<p>
+				使用Echart报表生成库，可视化展示后台数据。
+			<p/>
+		<li/>
+		<li>
+			<h5>
+				邮件报告
+			<h5/>
+			<p>
+				实现将前台Echart生成的图表传到后台，放到邮件正文中。
+			<p/>
+		<li/>
+		<li>
+			<h5>
+				借料签流程单
+			<h5/>
+			<p>
+				实现签核流程定制化功能，用户可配置签核人员节点，定义签核流程。
+			<p/>
+		<li/>
+	<ul/>	
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+	$(function(){
+		// 初始化轮播
+			//$("#myCarousel").carousel('cycle');
+		// 停止轮播
+			//$("#myCarousel").carousel('pause');
+		// 循环轮播到上一个项目
+			//$("#myCarousel").carousel('prev');
+		// 循环轮播到下一个项目
+			//$("#myCarousel").carousel('next');
+		// 循环轮播到某个特定的帧 
+		$(".slide-one").click(function(){
+			$("#myCarousel").carousel(0);
+		});
+		$(".slide-two").click(function(){
+			$("#myCarousel").carousel(1);
+		});
+		$(".slide-three").click(function(){
+			$("#myCarousel").carousel(2);
+		});
+		$(".slide-fourth").click(function(){
+			$("#myCarousel").carousel(3);
+		});
+	});
+</script>
