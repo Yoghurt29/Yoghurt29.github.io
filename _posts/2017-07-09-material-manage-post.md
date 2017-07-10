@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sample Post
-excerpt: "JAVA WEB项目-料件盘点系统"
+title: JAVA WEB项目-料件盘点系统
+excerpt: "使用BootStrap Echart呈现前端数据页面，使用ajax异步交互获取数据，使用SpringMVC Hibernate支撑后台业务；"
 categories: [project list]
 comments: true
 image:
@@ -9,11 +9,74 @@ image:
   credit: thomas shellberg
   creditlink: https://unsplash.com/photos/Ki0dpxd3LGc
 ---
+
+<img src="img/leonids-logo.png"/>
+
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<div id="myCarousel" class="carousel slide">
+	<!-- 轮播（Carousel）指标 -->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+		<li data-target="#myCarousel" data-slide-to="3"></li>
+	</ol>   
+
+	<!-- 轮播（Carousel）项目 -->
+	<div class="carousel-inner">
+		<div class="item active">
+		<img src="img/material_manage_day_data_view.png" alt="First slide">
+		</div>
+		<div class="item">
+		<img src="img/material_manage_back_line_chart_view.png" alt="Second slide">
+		</div>
+		<div class="item">
+		<img src="img/material_manage_manage_material_view.png" alt="Third slide">
+		</div>
+		<div class="item">
+		<img src="img/material_manage_sign_order_view.png" alt="fourth slide">
+		</div>
+	</div>
+	<!-- 轮播（Carousel）导航 -->
+	<a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
+	<a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
+</div>
+
+<!-- 控制按钮 -->
+<br>
+<div style="text-align:center;">
+	<input type="button" class="btn slide-one" value="Slide 1">
+	<input type="button" class="btn slide-two" value="Slide 2">
+	<input type="button" class="btn slide-three" value="Slide 3">
+	<input type="button" class="btn slide-fourth" value="Slide 4">
+</div>
 <script>
-	alert("js");
+	$(function(){
+		// 初始化轮播
+			//$("#myCarousel").carousel('cycle');
+		// 停止轮播
+			//$("#myCarousel").carousel('pause');
+		// 循环轮播到上一个项目
+			//$("#myCarousel").carousel('prev');
+		// 循环轮播到下一个项目
+			//$("#myCarousel").carousel('next');
+		// 循环轮播到某个特定的帧 
+		$(".slide-one").click(function(){
+			$("#myCarousel").carousel(0);
+		});
+		$(".slide-two").click(function(){
+			$("#myCarousel").carousel(1);
+		});
+		$(".slide-three").click(function(){
+			$("#myCarousel").carousel(2);
+		});
+		$(".slide-fourth").click(function(){
+			$("#myCarousel").carousel(3);
+		});
+	});
 </script>
-<img src="img/leonids-logo.png"></img>
-轮播图片展示项目
 ## 第一个独立完成的WEB项目
 	
 	该系统用于盘点生产料件。
@@ -30,6 +93,7 @@ image:
 	*可视化图表报表
 		使用Echart报表生成库，可视化展示后台数据。
 	*邮件报告
+		实现将前台Echart生成的图表传到后台，放到邮件正文中。
 	*借料签流程单
 		实现签核流程定制化功能，用户可配置签核人员节点，定义签核流程。
 		

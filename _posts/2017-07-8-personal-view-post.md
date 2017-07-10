@@ -41,6 +41,9 @@ image:
 
 中期，独立完成中小型项目。由于公司项目业务需求原因，在开发中前端后台一把抓，
 前端多数采用BootStrap JQuery 完成，也有使用一些UI模板，Echart报表等。
-重心还是放在后端。一年来做过3个项目，后端主要使用的框架Spring Hibernate Mybatis等。详情在<a>项目列表</a>
+重心还是放在后端。一年来做过3个项目，后端主要使用的框架Spring Hibernate Mybatis等。详情<a href="https://yoghurt29.github.io">home</a>
 
+## 个人特点
+> 乐于思考，学习，探讨技术。
+> 乐于分享，多次在组内技术分享会上讲解所学知识，在问题梳理能力，表达方式上得到大家的好评。 
 
