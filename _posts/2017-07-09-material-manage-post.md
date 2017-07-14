@@ -47,58 +47,58 @@ image:
 	<input type="button" class="btn slide-fourth" value="签单界面">
 </div>
 <div id="projectDetail">
-	<h2> 第一个独立完成的WEB项目<h2/>
+	<h2> 第一个独立完成的WEB项目</h2>
 	
-	<p>该系统用于盘点生产料件。<p/>
+	<p>该系统用于盘点生产料件。</p>
 	
-	<h3>用到的框架<h3/>
+	<h3>使用的框架</h3>
 	<ul>
-		<li>前端 BootStrap jQuery Echart<li/>
-		<li>后台 Spring SpringMVC Hibernate<li/>
-	<ul/>	
-	<h3>主要功能模块特点<h3/>
+		<li>前端 BootStrap jQuery Echart</li>
+		<li>后台 Spring SpringMVC Hibernate</li>
+	</ul>	
+	<h3>主要功能模块特点</h3>
 	<ul>
 		<li>
 			<h5>
 				退发料件录入
-			<h5/>
+			</h5>
 			<p>
 				使用web socket实现服务器主动推送退发料记录，使得多个用户同时使用时可同步展示库存数据。
-			<p/>
-		<li/>
+			</p>
+		</li>
 		<li>
 			<h5>
 				盘点数据导入导出
-			<h5/>
+			</h5>
 			<p>
 				编写Excel读取工具，努力做到使用简单灵活，复用性高。从Excel文件数据读取任意类对象集合，如List<T> List<Map>
-			<p/>
-		<li/>
+			</p>
+		</li>
 		<li>
 			<h5>
 				可视化图表报表
-			<h5/>
+			</h5>
 			<p>
 				使用Echart报表生成库，可视化展示后台数据。
-			<p/>
-		<li/>
+			</p>
+		</li>
 		<li>
 			<h5>
 				邮件报告
-			<h5/>
+			</h5>
 			<p>
 				实现将前台Echart生成的图表传到后台，放到邮件正文中。
-			<p/>
-		<li/>
+			</p>
+		</li>
 		<li>
 			<h5>
 				借料签流程单
-			<h5/>
+			</h5>
 			<p>
 				实现签核流程定制化功能，用户可配置签核人员节点，定义签核流程。
-			<p/>
-		<li/>
-	<ul/>
+			</p>
+		</li>
+	</ul>
 </div>	
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
