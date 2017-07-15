@@ -12,10 +12,10 @@ image:
 <div id="myCarousel" class="carousel slide">
 	<!-- 轮播（Carousel）指标 -->
 	<ol class="carousel-indicators">
-		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		<li data-target="#myCarousel" data-slide-to="1"></li>
-		<li data-target="#myCarousel" data-slide-to="2"></li>
-		<li data-target="#myCarousel" data-slide-to="3"></li>
+		<li data-target="#myCarousel" data-slide-to="0" id="slide-to0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1" id="slide-to1"></li>
+		<li data-target="#myCarousel" data-slide-to="2" id="slide-to2"></li>
+		<li data-target="#myCarousel" data-slide-to="3" id="slide-to3"></li>
 	</ol>   
 
 	<!-- 轮播（Carousel）项目 -->
@@ -71,7 +71,7 @@ image:
 				盘点数据导入导出
 			</h5>
 			<p>
-				编写Excel读取工具，努力做到使用简单灵活，复用性高。从Excel文件数据读取任意类对象集合，如List<T> List<Map>
+				编写Excel读取工具，努力做到使用简单灵活，复用性高。从Excel文件数据读取任意类对象集合，如List&lt;T&gt; List&lt;Map&gt;
 			</p>
 		</li>
 		<li>
@@ -116,15 +116,19 @@ image:
 		// 循环轮播到某个特定的帧 
 		$(".slide-one").click(function(){
 			$("#myCarousel").carousel(0);
+			$("#slide-to0").click();
 		});
 		$(".slide-two").click(function(){
 			$("#myCarousel").carousel(1);
+			$("#slide-to1").click();
 		});
 		$(".slide-three").click(function(){
 			$("#myCarousel").carousel(2);
+			$("#slide-to2").click();
 		});
 		$(".slide-fourth").click(function(){
 			$("#myCarousel").carousel(3);
+			$("#slide-to3").click();
 		});
 	});
 </script>
