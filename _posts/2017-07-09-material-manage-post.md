@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 料件盘点系统
-excerpt: "使用BootStrap Echart呈现前端数据页面，使用ajax异步交互获取数据，使用SpringMVC Hibernate支撑后台业务；"
+excerpt: "使用BootStrap Echart呈现前端数据页面,使用ajax异步交互获取数据,使用SpringMVC Hibernate支撑后台业务;"
 categories: [project list]
 comments: true
 image:
